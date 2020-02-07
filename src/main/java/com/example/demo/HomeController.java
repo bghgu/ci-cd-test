@@ -15,4 +15,9 @@ public class HomeController {
     public ResponseEntity<String> home() {
         return ResponseEntity.ok("hello");
     }
+
+    @GetMapping("/home2")
+    public ResponseEntity<String> home2() {
+        return ResponseEntity.ok("world");
+    }
 }
